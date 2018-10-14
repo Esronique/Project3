@@ -3,19 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+   
+    <title>Connect world</title>
+    <link rel="Connect world icon" type="image/png" href="~/images/logo.png">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
-    
+
 
 </head>
-<body>
+<body >
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <img src="images/logo.png" alt="Connection world logo" width="8%" height="80px" style="float:left; margin-left:auto;">
             <div class="navbar-header">
-
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -33,57 +33,12 @@
             </div>
         </div>
     </div>
-    <div class="container body-content" background="images/home.jpg">
+    <div class="container body-content" background= "~/images/home.jpg">
         @RenderBody()
         <hr />
-        <footer id="mainFooter">
+        <footer >
 
-            <section style="  text-align:center;   ">
-                <br>
-                <div style="  text-align:left; margin-left:10px; margin-top:40px; width:150px; float:left">
-                    <p>
-                        <a href="http://m.facebook.com" style="color:white; text-decoration:none;">
-                            <img src="images/facebook.png" alt="facebook logo" width="15px">
-                            Like us on Facebook
-                        </a>
-                    </p>
-                    <br>
-                    <p>
-                        <a href="https://mobile.twitter.com" style="color:white; text-decoration:none;">
-                            <img src="images/twitter.png" alt="twitter logo" width="15px">
-                            Follow us on twitter
-                        </a>
-                    </p>
-                </div>
-
-                <div style="  text-align:left; margin-left:400px;  width:250px;  ">
-                    <h5 style=" margin-left:50px;"><u>CONTACT US</u></h5>
-                    <br>
-                    <p>
-                        <a href="https://www.whatsapp.com" style="color:white; text-decoration:none;">
-                            <img src="images/whatsapp.png" alt="whatsapp logo" width="40px">
-                            WhatsApp - 061 223 5071
-                        </a>
-                    </p>
-                    <br>
-                    <p>
-                        <a href="https://www.google.com" style="color:white; text-decoration:none;">
-                            <img src="images/gmail.png" alt="email logo" width="30px">
-                            E-mail - rayneezdj@gmail.com
-                        </a>
-                    </p>
-                    <br>
-                    <p>
-                        <img src="images/call.jpeg" alt="call logo" width="30px">
-                        Call - 061 223 5071
-                    </p>
-                </div>
-
-            </section>
-
-            <br>
-
-            <p>&copy; @DateTime.Now.Year. All rights reserved. Powered by Connect World</p>
+        <p>&copy; @DateTime.Now.Year. All rights reserved. Powered by Connect World</p>
 
         </footer>
         

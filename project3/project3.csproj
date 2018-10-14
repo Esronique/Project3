@@ -218,6 +218,7 @@
     <Content Include="images\call.jpeg" />
     <Content Include="images\download.png" />
     <Content Include="images\facebook.png" />
+    <Content Include="images\gmail.png" />
     <Content Include="images\home.jpg" />
     <Content Include="images\lock.png" />
     <Content Include="images\logo.png" />
