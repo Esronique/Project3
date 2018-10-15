@@ -21,6 +21,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Connect World", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
@@ -29,14 +30,14 @@
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("UploadFile", "UploadFile", "Home")</li>
+                    
 
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
     </div>
-    <div class="container body-content" background= "~/images/home.jpg">
+    <div class="container body-content">
         @RenderBody()
         <hr />
         <footer >

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "UploadFile";
+}
+
+<div class="jumbotron">
+    <center>
+        <h2>Upload File</h2>
+        @using (Html.BeginForm("UploadFile", "UploadFile", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
+            <div>
+                @Html.TextBox("file", "", new { type = "file" })
+                <input type="submit" value="Save Files" />
+                @ViewBag.Message
+            </div>
+        }
+    </center>
+</div>
