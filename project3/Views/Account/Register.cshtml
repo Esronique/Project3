@@ -8,7 +8,6 @@
 {
     @Html.AntiForgeryToken()
 
-    <hr />
    
     <div class="jumbotron">
         <center>
@@ -26,7 +25,7 @@
 
             <div class="col-md-4">
 
-                <hr />
+              
                 @Html.ValidationSummary("", new { @class = "text-danger" })
 
                 <div class="form-group">
