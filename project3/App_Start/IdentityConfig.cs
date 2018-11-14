@@ -86,6 +86,11 @@ namespace project3
             }
             return manager;
         }
+
+        internal Task findByEmailAsync(string email)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     // Configure the application sign-in manager which is used in this application.
